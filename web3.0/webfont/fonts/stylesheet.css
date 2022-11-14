@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'MYArirang_gothic';
+    src: url('MYArirang_gothic-Light.eot');
+    src: url('MYArirang_gothic-Light.eot?#iefix') format('embedded-opentype'),
+        url('MYArirang_gothic-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MYHaemalgeunSangsang';
+    src: url('MYHaemalgeunSangsang.eot');
+    src: url('MYHaemalgeunSangsang.eot?#iefix') format('embedded-opentype'),
+        url('MYHaemalgeunSangsang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MYYeongnamnu';
+    src: url('MYYeongnamnu.eot');
+    src: url('MYYeongnamnu.eot?#iefix') format('embedded-opentype'),
+        url('MYYeongnamnu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MYArirang';
+    src: url('MYArirang-Medium.eot');
+    src: url('MYArirang-Medium.eot?#iefix') format('embedded-opentype'),
+        url('MYArirang-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+

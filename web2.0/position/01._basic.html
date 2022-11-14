@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 2000px;
+        }
+
+        div.box{
+            width: 200px;
+            height: 200px;
+            background: coral;
+            z-index: 9999;
+            position: relative;
+            top: 0px;
+            left: 0px;
+        }
+        div.box1{width: 200px;
+            height: 200px;
+            background: purple;
+            position: absolute;
+            float: left;
+            top: 0px;
+            left: 0px;
+        }
+        div.box2{width: 200px;
+            height: 200px;
+            background: skyblue;
+            position: absolute;
+            top: 300px;
+            left: 0px;
+        }
+        div.box3{width: 200px;
+            height: 200px;
+            background: greenyellow;
+            position: absolute;
+            top: 0px;
+            left: 200px;
+        }
+        div.child{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        div.fixBox{
+            width: 100px;
+            height: 100px;
+            background: gray;
+            position: absolute;
+            top: 100px;
+            left: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">box
+    <div class="box1">box1</div>
+    <div class="box2">box2</div>
+       <div class="child">child</div>
+    <div class="box3">box3</div>
+    <div class="fixBox">fixBox</div>
+</div>
+    
+</body>
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메뉴만들기</title>
+
+    <style>
+        body, html, div, ul, li, a{margin: 0px; padding: 0px;}
+        ul{list-style: none;}
+        a{text-decoration: none;}
+
+        div.container{width: 1000px;margin: 100px auto;background: skyblue;}
+
+        div.container ul{width: 750px;background: yellow;margin: 0px auto;font-size: 0px;}
+
+        div.container ul li{width: 150px;height: 50px;display: inline-block;background: pink;text-align: center;border-right: solid 1px #fff;box-sizing: border-box;}
+        div.container ul li:nth-child(1){border-left: solid 1px #fff;}
+
+        div.container ul li a{font-size: 16px;line-height: 50px;color: #fff;font-weight: bold;display: block;}
+
+        /*텍스트 한줄일때 가운데 정렬하는 방법
+         line-height를 부모요소의 높이값만 똑같이 입력한다.*/
+
+        div.container ul li:hover{background: purple;}
+        div.container ul li:hover a{color: gray;}
+
+         
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <ul>
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+            <li><a href="#">메뉴4</a></li>
+            <li><a href="#">메뉴5</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body, html, div, ul, li, a{margin: 0px;padding: 0px;}
+        ul{list-style: none;}
+        a{text-decoration: none;}
+
+        div.box{width: 1000px;margin: 0px auto; background: skyblue;}
+        div.box ul{width: 750px;margin: 0px auto; background: yellow;font-size: 0px;}
+        div.box ul li{width: 150px;height: 50px;display: inline-block; background: pink;text-align: center;border-right: solid 1px #fff;box-sizing: border-box;}
+        div.box ul li:nth-child(1){border-left: solid 1px #fff;}
+        div.box ul li a{font-size: 16px;line-height: 50px;color: #fff;font-weight: bold;display: block;}
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        <ul>
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+            <li><a href="#">메뉴4</a></li>
+            <li><a href="#">메뉴5</a></li>
+        </ul>
+    </div>
+    
+</body>
+</html>
